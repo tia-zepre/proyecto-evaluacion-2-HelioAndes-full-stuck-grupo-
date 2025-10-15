@@ -1,0 +1,8 @@
+para crear proyecto react poner en cmd:
+npx create-react-app mi-react
+ 
+
+pero si da a error puede ser por permisos :
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+ y luego repetir comando anterior   "npx create-react-app mi-react"

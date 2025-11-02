@@ -23,8 +23,9 @@ function Servicios() {
                     <Card.Body>
                         <Card.Title>Estudio Energético</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Análisis detallado del consumo de energía para
+                         dimensionar el sistema fotovoltaico óptimo para
+                          tu hogar o pyme, maximizando el ahorro y la eficiencia.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -35,8 +36,9 @@ function Servicios() {
                     <Card.Body>
                         <Card.Title>Instalación Certificada</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Montaje e implementación del sistema solar fotovoltaico cumpliendo
+                        con todas las normativas y estándares de seguridad de la Superintendencia
+                         de Electricidad y Combustibles.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -47,8 +49,8 @@ function Servicios() {
                     <Card.Body>
                         <Card.Title>Monitoreo</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Seguimiento continuo del rendimiento de tu planta solar a través de plataformas
+                        digitales, permitiendo detectar fallas rápidamente y asegurar la máxima producción de energía.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -59,8 +61,9 @@ function Servicios() {
                     <Card.Body>
                         <Card.Title>Mantención</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Servicios preventivos y correctivos para preservar
+                        la vida útil de los equipos, asegurando el óptimo funcionamiento 
+                        y eficiencia del sistema a lo largo del tiempo.
                         </Card.Text>
                     </Card.Body>
                 </Card>

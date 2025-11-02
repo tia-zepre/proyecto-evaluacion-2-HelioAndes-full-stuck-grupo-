@@ -23,8 +23,10 @@ function Testimonios() {
                     <Card.Body>
                         <Card.Title>Hogar 3–5 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        "Desde que instalamos el plan Hogar, 
+                        nuestra cuenta de luz se redujo a la mitad.
+                         Es una solución simple y efectiva para ahorrar
+                          y ser más amigables con el medio ambiente."
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -35,8 +37,11 @@ function Testimonios() {
                     <Card.Body>
                         <Card.Title> Pyme 10–20 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        "El costo energético era un problema 
+                        para nuestra PyME. Con el sistema de 
+                        15 kW de HelioAndes, bajamos drásticamente
+                         los gastos fijos y proyectamos una pronta
+                          amortización. ¡Excelente inversión!"
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -47,8 +52,11 @@ function Testimonios() {
                     <Card.Body>
                         <Card.Title>Off-grid con baterías e híbridos</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Vivimos en una zona rural y necesitábamos
+                         total autonomía. Nuestro sistema Off-grid
+                          es confiable; ya no dependemos de la red
+                           ni sufrimos cortes. La batería
+                            nos da paz mental todas las noches."
                         </Card.Text>
                     </Card.Body>
                 </Card>

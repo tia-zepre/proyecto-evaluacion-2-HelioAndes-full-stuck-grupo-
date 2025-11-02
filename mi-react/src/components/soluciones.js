@@ -23,8 +23,10 @@ function Soluciones() {
                     <Card.Body>
                         <Card.Title>Hogar 3–5 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Kits solares diseñados para familias,
+                        ideales para reducir significativamente
+                         la boleta de luz y dar el primer paso
+                          hacia un consumo de energía más limpio y eficiente.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -35,8 +37,10 @@ function Soluciones() {
                     <Card.Body>
                         <Card.Title> Pyme 10–20 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Soluciones robustas para pequeños y 
+                        medianos negocios que buscan optimizar
+                         sus costos operativos a través de la autogeneración
+                          de energía, mejorando su rentabilidad y sustentabilidad.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -47,8 +51,11 @@ function Soluciones() {
                     <Card.Body>
                         <Card.Title>Off-grid con baterías e híbridos</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Sistemas que ofrecen total independencia
+                        de la red eléctrica. Perfectos para zonas
+                         aisladas (Off-grid) o como respaldo inteligente
+                          con baterías para asegurar suministro continuo
+                           en cualquier situación.
                         </Card.Text>
                     </Card.Body>
                 </Card>

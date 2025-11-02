@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../public/logo.png'
+import logo from '../Assest/Images/logo.png';
 
 function NavbarPrincipal() {
     return (
@@ -16,7 +16,7 @@ function NavbarPrincipal() {
                 <Nav className="ms-auto text-center"></Nav>
                     <Nav className="justify-content-end">
                     <Nav.Link href="#">inicio</Nav.Link>
-                    <Nav.Link href="#">Servicios</Nav.Link>
+                    <Nav.Link href='#'>Servicios</Nav.Link>
                     <Nav.Link href="#">Soluciones</Nav.Link>
                     <Nav.Link href="#">Demos</Nav.Link>
                     <Nav.Link href="#">Planes</Nav.Link>

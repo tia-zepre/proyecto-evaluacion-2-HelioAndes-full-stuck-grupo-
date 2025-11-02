@@ -1,9 +1,11 @@
 
-import React from 'react'
+import React from 'react';
 import Button from 'react-bootstrap/Button';
-import panelSolar from '../public/panel-solar.avif'
+import Image from '../Assest/Images/panel-solar.avif';
 
-function Hero() {
+
+
+function Banner() {
     return (
         <div  className="container">{/* esto es requerimiento*/}
             <div className='row' >
@@ -27,7 +29,7 @@ function Hero() {
 
                 <div className=' col-12 col-md-6' style={{ padding: '3rem' }}>
                     {/* esto es requerimiento ' col-12 col-md-6'*/}
-                    <img src={panelSolar}  style={{width:'100%' , borderRadius: '10%'}} alt="panel solar"/>
+                    <img src={Image}  style={{width:'100%' , borderRadius: '10%'}} alt="panel solar"/>
                 </div>
                 
             
@@ -37,4 +39,4 @@ function Hero() {
     );
 }
 
-export default Hero;
+export default Banner;

@@ -24,8 +24,10 @@ function Planes() {
                     <Card.Body>
                         <Card.Title>3–5 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Sistemas fotovoltaicos de energía solar diseñadas
+                         para el consumo eléctrico de una vivienda 
+                         estándar, permitiendo un ahorro significativo
+                          en la factura eléctrica.
                         </Card.Text>
                         <Button variant="success"  style={{ width:  '100%'}}>Solicitar Evaluación</Button>
                     </Card.Body>
@@ -37,8 +39,10 @@ function Planes() {
                     <Card.Body>
                         <Card.Title>10–15 kW</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Sistemas fotovoltaicos con mayor capacidad,
+                         ideales para pequeñas y medianas empresas que
+                          buscan reducir costos operativos y mejorar
+                           su sostenibilidad.
                         </Card.Text>
                         <Button variant="success"  style={{ width:  '100%'}}>Solicitar Evaluación</Button>
                     </Card.Body>
@@ -50,8 +54,10 @@ function Planes() {
                     <Card.Body>
                         <Card.Title>Híbrido + Baterías</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Sistemas conectados a la red que utilizan
+                         baterías para almacenar excedentes y proveer 
+                         energía durante cortes de luz o cuando la producción
+                          solar es baja, maximizando el autoconsumo y el respaldo.
                         </Card.Text>
                         <Button variant="success"  style={{ width:  '100%'}}>Solicitar Evaluación</Button>
                     </Card.Body>

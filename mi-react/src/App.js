@@ -6,6 +6,7 @@ import Servicios from './components/Servicios';
 import Soluciones from './components/soluciones';
 import Planes from './components/planes';
 import Testimonios from './components/Testimonios';
+import CalculadoraIntegral from './components/CalculadoraIntegral';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <Servicios/>
       <Soluciones/>
+      <CalculadoraIntegral/>
       <Planes/>
       <Testimonios/>
 

@@ -1,10 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
+import persona1 from '../Assest/Images/persona1.jpg';
+import persona2 from '../Assest/Images/persona2.jpg';
+import persona3 from '../Assest/Images/persona3.jpg';
 
 function Testimonios() {
   return (
-    <div className='container' >
+    <div className='container mt-4' >
         <div >
             <Navbar className="bg-body-tertiary">
                 <Container>
@@ -19,7 +22,7 @@ function Testimonios() {
         <div className='row' >
             <div className=' col-lg-4' >
                 <Card style={{ width: '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={persona1} style={{width:'35%', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title>Hogar 3–5 kW</Card.Title>
                         <Card.Text>
@@ -33,7 +36,7 @@ function Testimonios() {
             </div>
             <div className=' col-lg-4' >
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                   <Card.Img variant="top" src={persona2} style={{width:'40%', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title> Pyme 10–20 kW</Card.Title>
                         <Card.Text>
@@ -48,7 +51,7 @@ function Testimonios() {
             </div>  
             <div className=' col-lg-4'>
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={persona3} style={{width:'40%', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title>Off-grid con baterías e híbridos</Card.Title>
                         <Card.Text>

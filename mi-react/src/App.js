@@ -13,9 +13,9 @@ function App() {
     <div>
       <NavbarPrincipal/>
       <Banner/>
+      <Planes/>
       <Servicios/>
       <Soluciones/>
-      <Planes/>
       <Testimonios/>
      
 

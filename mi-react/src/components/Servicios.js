@@ -1,10 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
+import logoEstudio from '../Assest/Images/logo2.jpg';
+import logoInstalacion from '../Assest/Images/logo3.jpg';
+import monitoreopaneles from '../Assest/Images/monitoreopaneles.jpg';
+import mantenimiento from '../Assest/Images/mantenimiento.jpg';
+
+
 
 function Servicios() {
   return (
-    <div className='container' >
+    <div className='container mt-4' >
         <div >
             <Navbar className="bg-body-tertiary">
                 <Container>
@@ -19,7 +25,7 @@ function Servicios() {
         <div className='row' >
             <div className=' col-lg-3' >
                 <Card style={{ width: '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={logoEstudio} style={{width:'100', height:'150px',objectFit:'cover'}} />
                     <Card.Body>
                         <Card.Title>Estudio Energético</Card.Title>
                         <Card.Text>
@@ -32,7 +38,7 @@ function Servicios() {
             </div>
             <div className=' col-lg-3' >
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={logoInstalacion} style={{width:'100%', height:'150px' , objectFit:'cover'}} />
                     <Card.Body>
                         <Card.Title>Instalación Certificada</Card.Title>
                         <Card.Text>
@@ -45,7 +51,7 @@ function Servicios() {
             </div>  
             <div className=' col-lg-3'>
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={monitoreopaneles} style={{width:'100', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title>Monitoreo</Card.Title>
                         <Card.Text>
@@ -57,7 +63,7 @@ function Servicios() {
             </div>  
             <div className=' col-lg-3'>
                 <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={mantenimiento} style={{width:'100', height:'150px',objectFit:'cover'}} />
                     <Card.Body>
                         <Card.Title>Mantención</Card.Title>
                         <Card.Text>

@@ -1,10 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
+import kitsolar from '../Assest/Images/kitsolar.jpg';
+import kitEmpresa from '../Assest/Images/kitEmpresa.jpg';
+import kitHibrido from '../Assest/Images/kitHibrido.jpg';
 
 function Soluciones() {
   return (
-    <div className='container' >
+    <div className='container mt-4' >
         <div >
             <Navbar className="bg-body-tertiary">
                 <Container>
@@ -19,7 +22,7 @@ function Soluciones() {
         <div className='row' >
             <div className=' col-lg-4' >
                 <Card style={{ width: '100%'}}>
-                    <Card.Img variant="top" src="" />
+                   <Card.Img variant="top" src={kitsolar} style={{width:'40%', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title>Hogar 3–5 kW</Card.Title>
                         <Card.Text>
@@ -33,7 +36,7 @@ function Soluciones() {
             </div>
             <div className=' col-lg-4' >
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={kitEmpresa} style={{width:'100', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title> Pyme 10–20 kW</Card.Title>
                         <Card.Text>
@@ -47,7 +50,7 @@ function Soluciones() {
             </div>  
             <div className=' col-lg-4'>
                 <Card style={{ width:  '100%'}}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={kitHibrido} style={{width:'100', height:'150px',objectFit:'cover'}}/>
                     <Card.Body>
                         <Card.Title>Off-grid con baterías e híbridos</Card.Title>
                         <Card.Text>

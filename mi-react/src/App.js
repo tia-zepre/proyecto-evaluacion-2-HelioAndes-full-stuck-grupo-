@@ -7,6 +7,8 @@ import Planes from './components/planes';
 import Testimonios from './components/Testimonios';
 import Banner from './components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CalculadoraIntegral from './components/CalculadoraIntegral';
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Servicios/>
       <Soluciones/>
       <Testimonios/>
+      <CalculadoraIntegral/>
+      
      
 
 
